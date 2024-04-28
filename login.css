@@ -21,7 +21,7 @@ body{
     padding: 28px;
     margin: 0 28px;
     border-radius: 10px;
-    box-shadow: inset -2px 2px 2px white;
+    box-shadow: inset -2px 2px 2px #323232;
 }
 
 .form-title{
@@ -68,12 +68,23 @@ body{
     border: 1px solid grey;
     padding: 0 10px;
 }
+/* .education{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom: 15px;} */
+.education{
+    display: block;
+    float: left;
+}
 .education label{
     width: 95%;
     color: white;
     font-size: 20px;
     font-weight: 400;
-    margin: 5px 0;    
+    margin: 5px 0;  
+      
 }
 
 .gender-title{
