@@ -1,0 +1,48 @@
+body{
+    background: #212121
+}
+.navbar{
+    background: #121212; font-family: calibri; padding-right: 15px;padding-left: 15px; border-radius: 20px;
+}
+.navdiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    margin: 5px; font-weight:bold;font-size: 30px; color: white; float: right;
+}
+.dope{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+.profview{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding: 30px
+}
+.profile{
+    border-radius: 30px;
+    box-shadow: inset -2px 2px 2px #323232;
+    height: 215px;
+    width: 400px;
+}
+img{
+    border-radius: 20px; width: 45px; height: 45px; margin: 0px;
+}
+li{
+    list-style: none; display: inline-block;font-weight:bold;    
+}
+a{
+    color: white; font-size: 18px; font-weight: bold; margin-right: 25px; font-size: 25px;
+}
+button{
+    background-color: #212121; border: solid grey; border-radius: 15px;
+}
+button a{
+    margin: 5px; font-size: 25px;
+}
