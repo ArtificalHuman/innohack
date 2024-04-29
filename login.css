@@ -49,6 +49,8 @@ body{
 
 .user-input-box{
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     width: 50%;
     padding-bottom: 15px;
