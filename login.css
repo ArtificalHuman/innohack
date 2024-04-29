@@ -10,8 +10,10 @@ body{
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background-color: #212121;
-    background-size: cover;
+    background-image: url("backdrop.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
 }
 
 .container{
